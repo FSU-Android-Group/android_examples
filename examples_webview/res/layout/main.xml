@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<LinearLayout
+android:id="@+id/linearlayout"
+android:layout_width="318px"
+android:layout_height="500px"
+android:orientation="vertical"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+>
+<TextView
+android:id="@+id/CourseRefNumberLabel"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Enter Search Term Here">
+</TextView>
+<EditText
+android:layout_height="wrap_content"
+android:padding="10px"
+android:textSize="18sp" android:text="Search Term" android:layout_width="fill_parent" android:id="@+id/searchBox">
+</EditText>
+<Button
+android:id="@+id/Lookup"
+android:layout_width="101px"
+android:layout_height="wrap_content"
+android:text="Lookup"
+>
+</Button>
+
+
+  <WebView 
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="300px"
+    />
+ 
+
+
+</LinearLayout>
+</RelativeLayout>
